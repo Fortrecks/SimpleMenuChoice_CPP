@@ -1,32 +1,29 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main()
+{
+    system("cls");
+    int value;
 
-# Precompiled Headers
-*.gch
-*.pch
+    std::cout << "[1]=purpose, [2]=idk ,[3]=faxx\n";
+    std::cout << " write here any value\n";
+    std::cin >> value;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+    switch (value)
+    {
+    case 1:
+        std::cout << "selected: purpose\n";
+        break;
+    case 2:
+        std::cout << "selected: idk\n";
+        break;
+    case 3:
+        std::cout << "selected: fafxx\n";
+        break;
+    default:
+        std::cout << "incorrect";
+    }
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    return 0;
+}
