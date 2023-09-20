@@ -16,4 +16,4 @@ Contribuições são bem-vindas! Se você encontrar problemas ou desejar melhora
 
 ## Licença
 
-Este projeto é distribuído sob a licença [Nome da Licença]. Veja o arquivo LICENSE para obter mais detalhes.
+Este projeto é distribuído sob a licença [Davi Mares|Fortrecks]. Veja o arquivo LICENSE para obter mais detalhes.
